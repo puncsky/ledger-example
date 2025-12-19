@@ -72,3 +72,8 @@ option "operating_currency" "USD"
   Assets:US:JPMorgan:Checking           5000.00 USD
   Equity:Opening-Balances              -5000.00 USD
 
+; Transactions
+2025-12-19 * "Gas" "Fuel purchase"
+  Expenses:Transportation:Gas             45.00 USD
+  Assets:US:JPMorgan:Checking            -45.00 USD
+

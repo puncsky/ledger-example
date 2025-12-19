@@ -72,3 +72,7 @@ option "operating_currency" "USD"
   Assets:US:JPMorgan:Checking           5000.00 USD
   Equity:Opening-Balances              -5000.00 USD
 
+2025-12-19 * "Book Purchase"
+  Expenses:Education:Books                20.00 USD
+  Assets:US:JPMorgan:Checking            -20.00 USD
+

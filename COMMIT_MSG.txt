@@ -1,0 +1,8 @@
+feat: initialize beancount ledger for family finances
+
+- Add JPMorgan Chase checking account with $5,000 opening balance
+- Set up comprehensive expense categories for daily family usage
+- Include income accounts for salary, bonus, and other sources
+- Add asset accounts for checking and cash
+- Configure liability account for credit cards
+- Create README with usage instructions and account overview

@@ -1,0 +1,74 @@
+; -*- mode: beancount -*-
+; Family Ledger
+; Main beancount file for tracking family finances
+
+option "title" "Family Ledger"
+option "operating_currency" "USD"
+
+; Account opening dates
+2025-01-01 open Assets:US:JPMorgan:Checking                USD
+2025-01-01 open Assets:US:Cash                             USD
+
+2025-01-01 open Liabilities:CreditCard                     USD
+
+2025-01-01 open Income:Salary                              USD
+2025-01-01 open Income:Bonus                               USD
+2025-01-01 open Income:Other                               USD
+
+2025-01-01 open Expenses:Groceries                         USD
+2025-01-01 open Expenses:Dining:Restaurant                 USD
+2025-01-01 open Expenses:Dining:Takeout                    USD
+2025-01-01 open Expenses:Transportation:Gas                USD
+2025-01-01 open Expenses:Transportation:PublicTransit      USD
+2025-01-01 open Expenses:Transportation:Parking            USD
+2025-01-01 open Expenses:Housing:Rent                      USD
+2025-01-01 open Expenses:Housing:Mortgage                  USD
+2025-01-01 open Expenses:Housing:Insurance                 USD
+2025-01-01 open Expenses:Housing:Maintenance               USD
+2025-01-01 open Expenses:Utilities:Electric                USD
+2025-01-01 open Expenses:Utilities:Gas                     USD
+2025-01-01 open Expenses:Utilities:Water                   USD
+2025-01-01 open Expenses:Utilities:Internet                USD
+2025-01-01 open Expenses:Utilities:Phone                   USD
+2025-01-01 open Expenses:Healthcare:Medical                USD
+2025-01-01 open Expenses:Healthcare:Dental                 USD
+2025-01-01 open Expenses:Healthcare:Pharmacy               USD
+2025-01-01 open Expenses:Healthcare:Insurance              USD
+2025-01-01 open Expenses:Entertainment:Streaming           USD
+2025-01-01 open Expenses:Entertainment:Movies              USD
+2025-01-01 open Expenses:Entertainment:Hobbies             USD
+2025-01-01 open Expenses:Shopping:Clothing                 USD
+2025-01-01 open Expenses:Shopping:Electronics              USD
+2025-01-01 open Expenses:Shopping:Home                     USD
+2025-01-01 open Expenses:Shopping:Other                    USD
+2025-01-01 open Expenses:Education:Tuition                 USD
+2025-01-01 open Expenses:Education:Books                   USD
+2025-01-01 open Expenses:Education:Supplies                USD
+2025-01-01 open Expenses:Childcare                         USD
+2025-01-01 open Expenses:Pets:Food                         USD
+2025-01-01 open Expenses:Pets:Veterinary                   USD
+2025-01-01 open Expenses:Subscriptions                     USD
+2025-01-01 open Expenses:Insurance:Auto                    USD
+2025-01-01 open Expenses:Insurance:Life                    USD
+2025-01-01 open Expenses:Travel:Accommodation              USD
+2025-01-01 open Expenses:Travel:Transportation             USD
+2025-01-01 open Expenses:Travel:Other                      USD
+2025-01-01 open Expenses:Fitness:Gym                       USD
+2025-01-01 open Expenses:Personal:Haircare                 USD
+2025-01-01 open Expenses:Personal:Other                    USD
+2025-01-01 open Expenses:Gifts                             USD
+2025-01-01 open Expenses:Charity                           USD
+2025-01-01 open Expenses:Fees:BankFees                     USD
+2025-01-01 open Expenses:Fees:Other                        USD
+2025-01-01 open Expenses:Taxes:Federal                     USD
+2025-01-01 open Expenses:Taxes:State                       USD
+2025-01-01 open Expenses:Taxes:Property                    USD
+2025-01-01 open Expenses:Other                             USD
+
+2025-01-01 open Equity:Opening-Balances
+
+; Initial balance for JPMorgan Chase Checking
+2025-01-01 * "Opening Balance" "Initial balance for checking account"
+  Assets:US:JPMorgan:Checking           5000.00 USD
+  Equity:Opening-Balances              -5000.00 USD
+

@@ -48,6 +48,7 @@ option "operating_currency" "USD"
 2025-01-01 open Expenses:Pets:Food                         USD
 2025-01-01 open Expenses:Pets:Veterinary                   USD
 2025-01-01 open Expenses:Subscriptions                     USD
+2025-01-01 open Expenses:Subscriptions:AI                USD
 2025-01-01 open Expenses:Insurance:Auto                    USD
 2025-01-01 open Expenses:Insurance:Life                    USD
 2025-01-01 open Expenses:Travel:Accommodation              USD
@@ -71,4 +72,9 @@ option "operating_currency" "USD"
 2025-01-01 * "Opening Balance" "Initial balance for checking account"
   Assets:US:JPMorgan:Checking           5000.00 USD
   Equity:Opening-Balances              -5000.00 USD
+
+; Monthly subscriptions
+2025-12-01 * "OpenAI" "ChatGPT Pro subscription - December 2025"
+  Expenses:Subscriptions:AI             200.00 USD
+  Assets:US:JPMorgan:Checking
 

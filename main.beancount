@@ -21,6 +21,7 @@ option "operating_currency" "USD"
 2025-01-01 open Expenses:Transportation:Gas                USD
 2025-01-01 open Expenses:Transportation:PublicTransit      USD
 2025-01-01 open Expenses:Transportation:Parking            USD
+2025-01-01 open Expenses:Transportation:Taxi               USD
 2025-01-01 open Expenses:Housing:Rent                      USD
 2025-01-01 open Expenses:Housing:Mortgage                  USD
 2025-01-01 open Expenses:Housing:Insurance                 USD
@@ -71,4 +72,8 @@ option "operating_currency" "USD"
 2025-01-01 * "Opening Balance" "Initial balance for checking account"
   Assets:US:JPMorgan:Checking           5000.00 USD
   Equity:Opening-Balances              -5000.00 USD
+
+2025-12-19 * "Taxi" "Taxi fare"
+  Expenses:Transportation:Taxi              5.00 USD
+  Assets:US:JPMorgan:Checking              -5.00 USD
 

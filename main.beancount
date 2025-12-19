@@ -72,3 +72,7 @@ option "operating_currency" "USD"
   Assets:US:JPMorgan:Checking           5000.00 USD
   Equity:Opening-Balances              -5000.00 USD
 
+2025-12-19 * "Chewing gum purchase"
+  Assets:US:JPMorgan:Checking            -2.50 USD
+  Expenses:Shopping:Other                 2.50 USD
+

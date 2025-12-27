@@ -72,3 +72,8 @@ option "operating_currency" "USD"
   Assets:US:JPMorgan:Checking           5000.00 USD
   Equity:Opening-Balances              -5000.00 USD
 
+; Purchase of ruler
+2025-12-27 * "Ruler purchase"
+  Expenses:Education:Supplies              6.99 USD
+  Assets:US:JPMorgan:Checking             -6.99 USD
+

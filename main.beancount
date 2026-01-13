@@ -72,3 +72,8 @@ option "operating_currency" "USD"
   Assets:US:JPMorgan:Checking           5000.00 USD
   Equity:Opening-Balances              -5000.00 USD
 
+; Transactions
+2026-01-13 * "Panda Express" "Dinner"
+  Expenses:Dining:Takeout                  5.00 USD
+  Assets:US:JPMorgan:Checking             -5.00 USD
+
